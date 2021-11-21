@@ -1,0 +1,46 @@
+{
+  "name": "node-be",
+  "version": "1.0.0",
+  "description": "A helper server for the main java server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanksingh007/Node-Backend.git"
+  },
+  "keywords": [
+    "Node",
+    "Backend"
+  ],
+  "author": "aksingh007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanksingh007/Node-Backend/issues"
+  },
+  "homepage": "https://github.com/amanksingh007/Node-Backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.863.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "mongoose-field-encryption": "^4.0.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "14.17.0"
+  }
+}

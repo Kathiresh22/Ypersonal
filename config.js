@@ -1,4 +1,4 @@
-const env = "dev";
+const env = "prod";
 const config = {
   prod: {
     DBURL: "mongodb+srv://ypersonal:ypersonal@cluster0.rzskx.mongodb.net/PROD?retryWrites=true&w=majority",

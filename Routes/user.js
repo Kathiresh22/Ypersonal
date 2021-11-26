@@ -17,7 +17,7 @@ router.post("/register", async (req, res) => {
     const user = await User.findOne({ email: req.body.email });
     console.log(user);
     if (user) {
-      return res.status(400).send({ errMsg: "Email already registered" });
+      return res.status(400).send({ errMsg: "Email Id is already registered" });
     }
     console.log(req.body);
     req.body.password = await getHash(req.body.password);
